@@ -1,5 +1,8 @@
 import streamlit as st
 st.write()
 "# Hello"
-"# Hello가 안뜨네"
-"# hello....?"
+topics = [
+    {"id":1, "title":"commit", "view":100},
+    {"id":2, "title":"push", "view":200},
+    {"id":3, "title":"pull", "view":50}
+]
